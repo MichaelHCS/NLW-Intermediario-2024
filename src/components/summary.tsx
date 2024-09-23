@@ -86,7 +86,7 @@ export function Summary() {
                     <li key={goal.id} className="flex items-center gap-2">
                       <CheckCircle2 className="size-4 text-pink-500" />
                       <span className="text-sm text-zinc-400">
-                        Você Completou "
+                        Você completou "
                         <span className="text-zinc-100">{goal.title}</span>" às{' '}
                         <span className="text-zinc-100">{time}</span>
                       </span>
